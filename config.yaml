@@ -1,0 +1,13 @@
+# optimization options
+batch_size: 32               # batch size
+num_workers: 4
+
+# data options
+data_root: /amax/mxy/com
+save_root: /amax/mxy/com/resnet_out
+MultiPIE_root: /amax/wuyi/MultiPIE/5view/image
+MultiPIE_csv_root: /amax/wuyi/MultiPIE/5view/exp_labels.txt
+S_test: /amax/mxy/com/test.txt
+test_root: /amax/mxy/com/test_set_release.txt
+S_test_root: /amax/mxy/com/test
+model_root: /amax/mxy/com/model
